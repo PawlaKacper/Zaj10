@@ -42,8 +42,15 @@ Highlights
 - Clean separation between data schema and business rules.
 - Ready for automatic API documentation with ``pdoc``.
 
+Examples
+--------
+        >>> manager = Manager()
+        >>> manager.calculate_annual_balance(year=2007)
+        >>> display_monthly_settlement(manager, apartment_key=Siemianowice, year=1410, month=10)
+
 Authors
 ------
-Łukasz Kułacz - initial implementation, testing, documentation
+Łukasz Kułacz - initial implementation, testing, documentation.
+Kacper Pawlak - looking and learning
 
 """
